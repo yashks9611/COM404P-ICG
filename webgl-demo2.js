@@ -83,8 +83,8 @@ function main() {
         drawScene(gl, programInfo, buffers, texture1, deltaTime, 12);
         drawScene(gl, programInfo, buffers, texture2, deltaTime, 24);
         drawScene(gl, programInfo, buffers, texture3, deltaTime, 36);
-        // drawScene(gl, programInfo, buffers, texture4, deltaTime, 48);
-        // drawScene(gl, programInfo, buffers, texture5, deltaTime, 60);
+        drawScene(gl, programInfo, buffers, texture4, deltaTime, 48);
+        drawScene(gl, programInfo, buffers, texture5, deltaTime, 60);
 
         requestAnimationFrame(render);
     }
